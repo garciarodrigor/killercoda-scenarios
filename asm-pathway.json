@@ -1,0 +1,11 @@
+{
+  "title": "ASM",
+  "description": "",
+  "courses": [
+    {
+      "course_id": "asm-installation",
+      "title": "ASM Installation",
+      "description": ""
+    }
+  ]
+}
