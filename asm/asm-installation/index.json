@@ -27,6 +27,18 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "license.xml",
+          "target": "/root"
+        },
+        {
+          "file": "config.env",
+          "target": "/root"
+        }
+      ]
     }
   },
   "environment": {

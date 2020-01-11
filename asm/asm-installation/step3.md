@@ -12,4 +12,4 @@ Then we can run the installation
 
 We can watch running PODs runnning
 
-`watch kubectl get pod -n service-mesh --sort-by=.metadata.namespace`{{execute Watch PODs}}
+`watch kubectl get pod -n service-mesh --sort-by=.metadata.namespace`{{execute T2}}
