@@ -1,6 +1,6 @@
 We will start downloadind and installing ASM CLI.
 
-`mkdir -p $HOME/.asm && curl -Ls //cdn-devx.anypoint.mulesoft.com/artifacts/service-mesh-cli/asm-latest.sh > $HOME/.asm/asmctl && chmod +x $HOME/.asm/asmctl`{{execute}}
+`mkdir -p $HOME/.asm && curl -Ls https://cdn-devx.anypoint.mulesoft.com/artifacts/service-mesh-cli/asm-latest.sh > $HOME/.asm/asmctl && chmod +x $HOME/.asm/asmctl`{{execute}}
 
 Then we will add it to our PATH.
 
