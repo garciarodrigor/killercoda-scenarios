@@ -37,6 +37,10 @@
         {
           "file": "config.env",
           "target": "/root"
+        },
+        {
+          "file": "helloworld.yaml",
+          "target": "/root"
         }
       ]
     }
