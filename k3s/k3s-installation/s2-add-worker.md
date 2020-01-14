@@ -9,7 +9,7 @@ To add the host as an agent to the cluster, we need two things:
 
 Run the following command on `node01` to add the host to the cluster:
 
-`ssh node01 sh -c 'curl -sfL https://get.k3s.io | K3S_CLUSTER_SECRET=thisisverysecret K3S_URL=https://[[HOST_IP]]:6443 sh -'`{{execute T1}}
+`echo 'curl -sfL https://get.k3s.io | INSTALL_K3S_VERSION=v1.0.1 K3S_CLUSTER_SECRET=thisisverysecret K3S_URL=https://[[HOST_IP]]:6443 sh -' | ssh node01`{{execute T1}}
 
 Wait for node1 to become `Ready` in the cluster by retrieving the nodes in the cluster:
 
