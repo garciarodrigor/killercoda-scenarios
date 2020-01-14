@@ -1,0 +1,28 @@
+{
+    "title": "Install k3s",
+    "description": "Get to know how to easily setup k3s",
+    "details": {
+      "steps": [
+        {
+          "title": "Step 1: Installation",
+          "text": "s1-installation.md"
+        },
+        {
+          "title": "Step 2: Add a Worker",
+          "text": "s2-add-worker.md"
+        }
+      ],
+      "intro": {
+        "text": "intro.md"
+      },
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "environment": {
+      "uilayout": "editor-terminal"
+    },
+    "backend": {
+      "imageid": "kubernetes-cluster"
+    }
+  }

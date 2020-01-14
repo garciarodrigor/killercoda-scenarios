@@ -1,0 +1,11 @@
+{
+  "title": "K3S",
+  "description": "",
+  "courses": [
+    {
+      "course_id": "k3s-installation",
+      "title": "K3S Installation",
+      "description": ""
+    }
+  ]
+}
