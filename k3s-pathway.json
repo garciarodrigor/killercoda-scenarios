@@ -6,6 +6,12 @@
       "course_id": "k3s-installation",
       "title": "K3S Installation",
       "description": ""
+    },
+    {
+      "course_id": "k3s-playground",
+      "title": "K3S Playgroud",
+      "description": ""
     }
+
   ]
 }

@@ -1,0 +1,23 @@
+{
+    "title": "Install k3s",
+    "description": "Get to know how to easily setup k3s",
+    "details": {
+      "steps": [{
+        "title": "K3s Playground",
+        "text": "tips.md"
+      }],
+      "intro": {
+        "text": "intro.md",
+        "codeData": "bootstrap.sh"
+      },
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "environment": {
+      "uilayout": "editor-terminal"
+    },
+    "backend": {
+      "imageid": "kubernetes-cluster"
+    }
+  }
