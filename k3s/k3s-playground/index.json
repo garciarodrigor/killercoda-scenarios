@@ -8,7 +8,7 @@
       }],
       "intro": {
         "text": "intro.md",
-        "codeData": "bootstrap.sh"
+        "courseData": "bootstrap.sh"
       },
       "finish": {
         "text": "finish.md"
