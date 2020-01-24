@@ -1,4 +1,5 @@
 {
+  "noindex": true,
   "title": "ASM Installation",
   "description": "",
   "difficulty": "Beginner",
@@ -47,7 +48,12 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
+    "showdashboard": true,
+    "dashboards": [
+      {"name": "Anypoint", "href": "https://qax.anypoint.mulesoft.com"},
+      {"name": "HelloWorld App", "port": 31080}
+    ]
   },
   "backend": {
     "port": 8080,
