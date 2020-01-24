@@ -9,6 +9,6 @@ We can check the differents `sizes` running `asmctl adapter sizes`{{execute T1}}
 We can list all created adapter and check it status running `asmctl adapter list`{{execute T1}}
 
 When the adapter is ready, we can redeploy our application to be injected with the sidecard 
-`asmctl kubectl rollout restart deploy/helloworld-v1 deploy/helloworld-v1`{{execute T1}}
+`asmctl kubectl rollout restart deploy/helloworld-v1 deploy/helloworld-v2`{{execute T1}}
 
 Then we can bind our application `asmctl adapter binding create --name=helloworld --namespace=default --adapter=adapter --apiId=$API_ID --serviceName=helloworld`{{execute T1}}
