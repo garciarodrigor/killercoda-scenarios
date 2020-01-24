@@ -1,6 +1,6 @@
-# Katacoda ASM Scenarios
+# Katacoda Scenarios
 
-The ASM learning portal, powered by Katacoda https://www.katacoda.com/alphaar
+The Mulesoft learning portal, powered by Katacoda https://www.katacoda.com/mulesoft
 
 See also:
 - https://github.com/napcs/katacoda-scenarios
