@@ -51,7 +51,7 @@
     "uilayout": "editor-terminal",
     "showdashboard": true,
     "dashboards": [
-      {"name": "Anypoint", "href": "https://qax.anypoint.mulesoft.com"},
+      {"name": "Anypoint", "href": "https://anypoint.mulesoft.com"},
       {"name": "HelloWorld App", "port": 31080}
     ]
   },
