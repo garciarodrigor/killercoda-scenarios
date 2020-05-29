@@ -12,3 +12,7 @@ When the adapter is ready, we can redeploy our application to be injected with t
 `asmctl kubectl rollout restart deploy/helloworld-v1 deploy/helloworld-v2`{{execute T1}}
 
 Then we can bind our application `asmctl adapter binding create --name=helloworld --namespace=default --adapter=adapter --apiId=$API_ID --serviceName=helloworld`{{execute T1}}
+
+We can list all created bindings and check it status running `asmctl adapter binding list`{{execute T1}}
+
+When the binding is ready, we can check in `Terminal 3` if the policy was applied
