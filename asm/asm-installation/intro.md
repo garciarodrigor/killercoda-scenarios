@@ -1,0 +1,1 @@
+This scenario teaches you how to download and install Istio and ASM CLI to install ASM to you own kubernetes cluster
