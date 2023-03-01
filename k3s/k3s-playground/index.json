@@ -19,6 +19,6 @@
       "uilayout": "editor-terminal"
     },
     "backend": {
-      "imageid": "kubernetes-cluster"
+      "imageid": "ubuntu"
     }
   }
